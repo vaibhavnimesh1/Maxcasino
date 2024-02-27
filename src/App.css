@@ -1,0 +1,357 @@
+:root {
+  --button-primary-color: #1bb96b;
+  --button--border-color: #ffffff;
+  --button-pressed-color: #1bb96b;
+  --button-hover-color: #1bb96b80;
+  --button-accent-color: #b91b5d;
+  --inactive-color: #808792;
+  --active-color: #1bb96b;
+  --nav-bg-color: #f0eef4;
+  --bg-color: #130d25;
+}
+.green {
+  color: var(--button-hover-color);
+}
+.white {
+  color: #ffffff;
+}
+
+body {
+  background: var(--bg-color);
+  /* padding-bottom: 20rem; */
+}
+.wrapper {
+  max-width: 1280px;
+  background: var(--bg-color);
+  margin: auto;
+}
+
+/* Navbar styling */
+nav {
+  background: #0e0823;
+  /* padding: 0 20px; */
+}
+
+/* .bar{
+  padding-left: 50px;
+  padding-right: 50px;
+} */
+
+/* Logo styling */
+.logo:hover {
+  color: white;
+}
+.logo {
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 900;
+  color: white;
+}
+
+/* Button styling */
+.button {
+  padding: 8px 32px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  border-radius: 5px;
+  border: none;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Logo span styling */
+.logo span {
+  color: var(--button-accent-color);
+  font-weight: 700;
+}
+
+.signup {
+  background: var(--button-primary-color);
+  margin-left: 20px;
+  color: #ffffff;
+  transition: ease-in-out 0.3s;
+}
+.signup:hover {
+  background: var(--button-hover-color);
+}
+
+.login {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background: #130d25;
+}
+
+.dropdown-box {
+  color: white;
+  background: #130d25;
+  margin-right: 20px;
+}
+
+/* Navbar styling */
+
+/* hero-section */
+
+.hero {
+  background: var(--bg-color);
+}
+
+.image {
+  /* width: 10vw;  */
+  /* height: 80%; */
+}
+.image img {
+  background-repeat: no-repeat;
+
+}
+
+.left-banner button {
+  background: var(--button-accent-color);
+  color: white;
+}
+.left-banner {
+  /* width: 500px; */
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 120px;
+}
+.left-banner h3 {
+  display: flex;
+  justify-content: start;
+  
+}
+.left-banner h2{
+  font-weight: 800;
+  font-size: 5vw;
+  white-space: nowrap;
+}
+/* hero-section */
+
+.back {
+  background: var(--bg-color);
+}
+
+/* Detail component */
+.detailcomp {
+  /* width: 308px; */
+  background: #0e0823;
+
+  font-size: 12px;
+  font-weight: 400;
+}
+.detailcomp ul {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  flex-direction: column;
+}
+.center div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.center span {
+  /* border-radius: 50%; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+  align-items: center;
+}
+.center div img {
+  /* padding; */
+  margin-bottom: 5px;
+}
+
+.detailcomp ul li span button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background: #2a253a;
+}
+
+/* Detail component */
+
+/* small-banner */
+
+.small-banner h2,
+h3 {
+  /* width: fit-content; */
+  padding-left: 40px;
+}
+.small-banner p {
+  /* width: fit-content; */
+  padding-left: 40px;
+}
+
+.back-img {
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  background-image: url(https://images.pexels.com/photos/279009/pexels-photo-279009.jpeg?auto=compress&cs=tinysrgb&w=600);
+  object-fit: contain;
+  /* position: ; */
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* *************************gradient-******************************** */
+.back-img {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/279009/pexels-photo-279009.jpeg?auto=compress&cs=tinysrgb&w=600);
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back-img::before {
+
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+}
+
+/* Additional styling for text or other content on top of the image */
+.content-on-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  /* Add other styles as needed */
+}
+
+/* *************************gradient-******************************** */
+
+.btn-fir {
+  text-align: center;
+  background: var(--active-color);
+}
+.btn-sec {
+  text-align: center;
+  background: var(--button-accent-color);
+}
+
+/* small-banner */
+
+/* CardList */
+
+.card-list-btn button,
+i {
+  border: none;
+  background: transparent;
+  background: #130d25;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.card-list-btn last {
+  background: #000;
+}
+
+.single-card {
+  margin-bottom: 20px;
+}
+.single-card img {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* CardList */
+
+
+/* footer */
+
+
+.about p{
+  display: flex;
+  justify-content: start;
+  width: fit-content;
+}
+
+.copyright{
+  background: #2A253A;
+color: #ffffff;
+}
+/* footer */
+
+/* ************************************************************************************************* */
+/* media-query */
+
+@media screen and (max-width: 622px) {
+  /* .image {
+    width: 20rem;
+  } */
+  .image img {
+    width: 20rem;
+    margin-top: 20px;
+  }
+  .left-banner {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+}
+
+@media screen and (max-width: 1050px)
+{
+  .left-banner{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    padding-top: 50px;
+    align-items: center;
+  }
+  .left-banner h2{
+    font-size: 11vw;
+  }
+}
+@media screen and (max-width: 575px){
+
+  .single-card img {
+    width: 16rem;
+  }
+  .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+  .heading{
+    padding: 0 10pxy;
+  }
+} 
+@media screen and (max-width: 322px) {
+  .image img {
+    width: 18rem;
+  }
+
+  .left-banner h2 {
+    font-size: 10vw;
+
+  }
+}
