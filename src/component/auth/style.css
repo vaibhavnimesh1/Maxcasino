@@ -1,0 +1,49 @@
+:root {
+  --button-primary-color: #1bb96b;
+  --button--border-color: #ffffff;
+  --button-pressed-color: #1bb96b;
+  --button-hover-color: #1bb96b80;
+  --button-accent-color: #b91b5d;
+  --inactive-color: #808792;
+  --active-color: #1bb96b;
+  --nav-bg-color: #f0eef4;
+  --bg-color: #130d25;
+}
+
+.signin form {
+  background: lightgray;
+  margin-top: 100px;
+}
+.signin form button {
+  background: var(--button-accent-color);
+  color: #130d25;
+  border: none;
+}
+.signin form label {
+  font-style: 16px;
+  font-weight: 800;
+}
+form p {
+  margin-top: 20px;
+  color: white;
+
+  /* background: red; */
+  font-weight: 800;
+}
+
+.mark{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #ffffff;
+    /* border-radius: 10px; */
+    display: flex;
+    
+    
+}
+
+.mark i{
+    font-size: 25px;
+    background: white;
+    color: black;
+}

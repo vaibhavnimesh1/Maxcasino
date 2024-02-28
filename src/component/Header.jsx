@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../App.css";
 
 const Header = () => {
@@ -20,41 +21,36 @@ const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                
-                <a className="nav-link active" aria-current="page" href="#">
-                  Sport
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-5 px-lg-5 ">
+              <li className="nav-item px-sm-4  ">
+                <a className="nav-link " aria-current="page" href="#">
+                  <i className="fa-brands fa-codepen"></i>Sport
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item px-sm-4 ">
                 <a className="nav-link" href="#">
-                  Live
+                  <i className="fa-brands fa-codepen"></i>Live
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item px-sm-4 ">
                 <a className="nav-link" href="#">
-                  Casino
+                  <i className="fa-brands fa-codepen"></i>Casino
                 </a>
               </li>
-              <li className="nav-item">
+
+              <li className="nav-item px-sm-4 ">
                 <a className="nav-link" href="#">
-                  Live Casino
+                  <i className="fa-brands fa-codepen"></i>Live Casino
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item px-sm-4  ">
                 <a className="nav-link" href="#">
-                  Virtual Games
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Promotion
+                  <i className="fa-brands fa-codepen"></i>Virtual Games
                 </a>
               </li>
             </ul>
-            <div className="d-flex" role="search">
-              <div className="dropdown dropdown-box ">
+            <div className="d-flex px-sm-4 " role="search">
+              <div className="dropdown dropdown-box  drop">
                 <button
                   className="btn  dropdown-toggle  text-light "
                   type="button"
@@ -63,7 +59,7 @@ const Header = () => {
                 >
                   EN
                 </button>
-                <ul className="dropdown-menu text-light ">
+                <ul className="dropdown-menu text-light  ">
                   <li>
                     <a className="dropdown-item" href="#">
                       Action
@@ -82,11 +78,12 @@ const Header = () => {
                 </ul>
               </div>
 
-              <button className="button login" type="submit">
-                Login
+              <button className="button login mx-4" type="submit">
+             <Link to="/signIn">   Login</Link>
               </button>
-              <button className="button signup" type="submit">
-                Sign Up
+              <button className="button signUp" type="submit">
+               
+             <Link to="/signUp">    Sign Up</Link>
               </button>
             </div>
           </div>

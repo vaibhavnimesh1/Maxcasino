@@ -5,7 +5,7 @@ const SmallBanner = () => {
   
       <div className="container-fluid px-lg-5 px-md-2  px-sm-0 text-center d-flex justify-content-center align-items-center mb-2  ">
         <div className="row d-flex justify-content-evenly  col-12 ">
-          <div className="col-lg-6    ">
+          <div className="col-lg-6 mb-sm-4     ">
             <div className=" small-banner  back-img d-flex justify-content-end flex-column  ">
               <h3 className="text-light "> Casino</h3>
               <p  className="text-light">
@@ -23,7 +23,7 @@ const SmallBanner = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6    ">
+          <div className="col-lg-6 mb-sm-4     ">
             <div className=" small-banner  back-img d-flex justify-content-end flex-column  ">
               <h3 className="text-light "> Casino</h3>
               <p  className="text-light">

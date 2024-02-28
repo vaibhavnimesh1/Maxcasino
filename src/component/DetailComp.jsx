@@ -3,13 +3,17 @@ import "../App.css";
 
 const DetailComp = () => {
   return (
-    <div className="detailcomp p-4 rounded-2 mt-3 mb-3 ">
+    <div className="detailcomp p-3 rounded-2 mt-3 mb-3 ">
       <ul className=" p-0  gap-4">
-        <li className="d-flex nowrap justify-content-between ">
-          <span><i className="fa-solid fa-football"></i>premier league </span>
-          <span><i className="fa-solid fa-football"></i>Feb 2, 00:00</span>
+        <li className="d-flex nowrap justify-content-between text-light  ">
+          <span>
+            <i className="fa-solid fa-football mx-1 "></i>premier league{" "}
+          </span>
+          <span>
+            <i className="fa-solid fa-football mx-1 "></i>Feb 2, 00:00
+          </span>
         </li>
-        <li className="d-flex nowrap justify-content-between center ">
+        <li className="d-flex nowrap justify-content-between text-light  center ">
           <span className=" text-white ">
             {" "}
             <div className="">
@@ -21,7 +25,7 @@ const DetailComp = () => {
             </div>{" "}
             Chealsea
           </span>
-          <span className=" text-white ">Vs</span>
+          <span className=" text-white fw-bolder  ">Vs</span>
           <span className=" text-white ">
             {" "}
             <div>
@@ -34,10 +38,28 @@ const DetailComp = () => {
             Liverpool
           </span>
         </li>
-        <li className="d-flex nowrap justify-content-between  ">
-          <span className=" text-white "> <button> <span>1</span>1.87</button></span>
-          <span className=" text-white "> <button> <span>X</span>1.87</button></span>
-          <span className=" text-white "> <button> <span>2</span>1.87</button></span>
+        <li className="d-flex nowrap justify-content-between   ">
+          <span>
+            {" "}
+            <button className=" text-white ">
+              {" "}
+              <span>1</span>1.87
+            </button>
+          </span>
+          <span className=" text-white ">
+            {" "}
+            <button className=" text-white ">
+              {" "}
+              <span>X</span>1.87
+            </button>
+          </span>
+          <span className=" text-white ">
+            {" "}
+            <button className=" text-white ">
+              {" "}
+              <span>2</span>1.87
+            </button>
+          </span>
         </li>
       </ul>
     </div>

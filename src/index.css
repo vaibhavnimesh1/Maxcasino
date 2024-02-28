@@ -100,8 +100,11 @@ a {
 
 }
 .nav-link {
-  color: var(--inactive-color) !important;
+  color: var(--inactive-color) ;
   font-weight: bold;
+}
+.nav-link:hover{
+  color: blue;
 }
 
 
